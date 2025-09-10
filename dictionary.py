@@ -1,0 +1,17 @@
+d={"sno":123,"name":"priya"}
+print(d["sno"])
+print(d["name"])
+print(d.get("sno"))
+print(d.get("name"))
+d["age"]=20
+print(d)
+d["age"]=26
+print(d)
+d["sno"]=6
+print(d)
+d.pop("sno")
+print(d)
+d.popitem()
+print(d)
+d.clear()
+print(d)
