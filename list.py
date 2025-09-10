@@ -1,0 +1,10 @@
+a=[]
+a.append(6)
+a.extend([8,6,4,3,1])
+a.insert(1,2)
+a[2]=66
+a.remove(1)
+a.pop()
+print(a)
+b=a.copy()
+print(b)
